@@ -1823,7 +1823,7 @@ video {
     #page-wrapper {
         position: inherit;
         margin: 0 0 0 240px;
-        min-height: 1000px;
+        min-height: 800px;
     }
 }
 .title-action {
@@ -2616,6 +2616,12 @@ table.table-mail tr td {
     margin-left: -200px;
     z-index: 100;
 }
+.errorscreen .font-bold, .errorscreen .error-desc {
+    font-family: "微软雅黑", "Microsoft YaHei";
+}
+.loginscreen .m-t {
+    font-family: "微软雅黑", "Microsoft YaHei";
+}
 .lockscreen.middle-box {
     width: 200px;
     margin-left: -100px;
@@ -2627,8 +2633,8 @@ table.table-mail tr td {
     margin-top: -330px;
 }
 .logo-name {
-    color: #e6e6e6;
-    font-size: 180px;
+    color: #d6d6d6;
+    font-size: 140px;
     font-weight: 800;
     letter-spacing: -10px;
     margin-bottom: 0px;
@@ -3562,7 +3568,7 @@ body.skin-3 {
     #page-wrapper {
         position: inherit;
         margin: 0 0 0 220px;
-        min-height: 1100px;
+        min-height: 800px;
     }
     .navbar-static-side {
         z-index: 101;
@@ -3579,7 +3585,7 @@ body.skin-3 {
     #page-wrapper {
         position: inherit;
         margin: 0 0 0 0px;
-        min-height: 1000px;
+        min-height: 800px;
     }
     .body-small .navbar-static-side {
         display: none;
