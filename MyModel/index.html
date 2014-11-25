@@ -68,7 +68,7 @@
                             </ul>
                         </div>
                         <div class="logo-element">
-                            LC
+                            IOCloud
                         </div>
                     </li>
                     <li class="active">
@@ -86,16 +86,10 @@
                         </a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="projects.html">项目列表</a>
+                                <a href="index.html#">应用列表</a>
                             </li>
                             <li>
-                                <a href="project_detail.html">项目详情</a>
-                            </li>
-                            <li>
-                                <a href="file_manager.html">文件管理</a>
-                            </li>
-                            <li>
-                                <a href="calendar.html">日历查阅</a>
+                                <a href="index.html#">创建应用</a>
                             </li>
                         </ul>
                     </li>
@@ -108,18 +102,17 @@
                         </a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="graph_echarts.html">活跃数据</a>
+                                <a href="graph_echarts.html">用户数据</a>
                             </li>
                             <li>
-                                <a href="graph_flot.html">用户数据</a>
+                                <a href="graph_flot.html">消息数据</a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="index.html#">
-                            <i class="fa fa-envelope"></i>
-                            <span class="nav-label">邮件</span>
-                            <span class="label label-warning">16</span>
+                            <i class="fa fa-envelope text-warning"></i>
+                            <span class="nav-label text-warning">邮件 16</span>
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
@@ -133,6 +126,20 @@
                                 <a href="mail_compose.html">写信</a>
                             </li>
                         </ul>
+                    </li>
+
+                    <li>
+                        <a href="index.html#">
+                            <i class="fa fa-code"></i>
+                            <span class="nav-label">调试</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#">
+                            <i class="fa fa-bank"></i>
+                            <span class="nav-label">账户</span>
+                        </a>
                     </li>
 
                     <li>
@@ -160,7 +167,7 @@
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                     <div class="navbar-header">
-                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-success btn-outline" href="#"><i class="fa fa-bars"></i> </a>
                         <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
                             <div class="form-group">
                                 <input type="text" placeholder="输入您需要查找的内容……" class="form-control" name="top-search" id="top-search">
@@ -259,90 +266,349 @@
 
             <div class="wrapper wrapper-content animated fadeInRight row">
 
-                <div class="col-lg-8">
+                <div class="col-md-8">
+                    <div class="float-e-margins ibox">
+                        <div class="ibox-title">
+                            <h5>昨日数据统计 <small> （目前共有3个在线运行的项目）</small></h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="widget navy-bg p-sm">
+                                        <small>活跃用户数</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">76154</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-up"></i> 650
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="widget navy-bg p-sm">
+                                        <small>登陆用户数</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">153022</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-up"></i> 1370
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="widget navy-bg p-sm">
+                                        <small>新增用户数</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">6587</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-down"></i> 895
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="widget blue-bg p-sm">
+                                        <small>单聊消息统计</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">658797</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-down"></i> 895
+                                        </div>
+                                        <ul class="list-unstyled m-t-md m-l-lg">
+                                            <li>
+                                                <span class="fa fa-file-text-o m-r-xs"></span>
+                                                <label>文字消息：</label> 998574 | 88%
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-file-image-o m-r-xs"></span>
+                                                <label>图片消息：</label> 6588 | 11%
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-file-audio-o m-r-xs"></span>
+                                                <label>语音消息：</label> 321 | 1%
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="widget blue-bg p-sm">
+                                        <small>群聊消息统计</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">1247978</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-up"></i> 53214
+                                        </div>
+                                        <ul class="list-unstyled m-t-md m-l-lg">
+                                            <li>
+                                                <span class="fa fa-file-text-o m-r-xs"></span>
+                                                <label>文字消息：</label> 1268574 | 88%
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-file-image-o m-r-xs"></span>
+                                                <label>图片消息：</label> 26588 | 11%
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-file-audio-o m-r-xs"></span>
+                                                <label>语音消息：</label> 4321 | 1%
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                    <div class="col-md-4">
-                        <div class="widget navy-bg p-sm">
-                            <small>昨日活跃用户数</small>
-                            <div class="m-t-sm text-center">
-                                <h2 class="font-bold">76154</h2>
-                            </div>
-                            <div class="m-t-xs text-right">
-                                <i class="fa fa-arrow-up"></i> 650
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="widget navy-bg p-sm">
-                            <small>昨日登陆用户数</small>
-                            <div class="m-t-sm text-center">
-                                <h2 class="font-bold">153022</h2>
-                            </div>
-                            <div class="m-t-xs text-right">
-                                <i class="fa fa-arrow-up"></i> 1370
+                    <div class="float-e-margins ibox">
+                        <div class="ibox-title">
+                            <h5>最近7日数据统计</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="widget navy-bg p-sm">
-                            <small>昨日新增用户数</small>
-                            <div class="m-t-sm text-center">
-                                <h2 class="font-bold">6587</h2>
+                        <div class="ibox-content">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="widget navy-bg p-sm">
+                                        <small>日平均活跃用户数</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">76154</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-up"></i> 650
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="widget navy-bg p-sm">
+                                        <small>日平均登陆用户数</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">153022</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-up"></i> 1370
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="widget navy-bg p-sm">
+                                        <small>日平均新增用户数</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">6587</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-down"></i> 895
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="m-t-xs text-right">
-                                <i class="fa fa-arrow-down"></i> 895
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="widget blue-bg p-sm">
+                                        <small>最近7天平均单聊消息统计</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">658797</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-down"></i> 895
+                                        </div>
+                                        <ul class="list-unstyled m-t-md m-l-lg">
+                                            <li>
+                                                <span class="fa fa-file-text-o m-r-xs"></span>
+                                                <label>文字消息：</label> 998574 | 88%
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-file-image-o m-r-xs"></span>
+                                                <label>图片消息：</label> 6588 | 11%
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-file-audio-o m-r-xs"></span>
+                                                <label>语音消息：</label> 321 | 1%
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="widget blue-bg p-sm">
+                                        <small>最近7天平均群聊消息统计</small>
+                                        <div class="m-t-sm text-center">
+                                            <h2 class="font-bold">1247978</h2>
+                                        </div>
+                                        <div class="m-t-xs text-right">
+                                            <i class="fa fa-arrow-up"></i> 53214
+                                        </div>
+                                        <ul class="list-unstyled m-t-md m-l-lg">
+                                            <li>
+                                                <span class="fa fa-file-text-o m-r-xs"></span>
+                                                <label>文字消息：</label> 1268574 | 88%
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-file-image-o m-r-xs"></span>
+                                                <label>图片消息：</label> 26588 | 11%
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-file-audio-o m-r-xs"></span>
+                                                <label>语音消息：</label> 4321 | 1%
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6">
-                        <div class="widget lazur-bg p-sm">
-                            <small>昨日单聊消息统计</small>
-                            <div class="m-t-sm text-center">
-                                <h2 class="font-bold">658797</h2>
+                    <div class="float-e-margins ibox">
+                        <div class="ibox-title">
+                            <h5>最近30日数据统计</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
                             </div>
-                            <div class="m-t-xs text-right">
-                                <i class="fa fa-arrow-down"></i> 895
-                            </div>
-                            <ul class="list-unstyled m-t-md m-l-lg">
-                                <li>
-                                    <span class="fa fa-file-code-o m-r-xs"></span>
-                                    <label>文字消息：</label> 998574 | 88%
-                                </li>
-                                <li>
-                                    <span class="fa fa-file-image-o m-r-xs"></span>
-                                    <label>图片消息：</label> 6588 | 11%
-                                </li>
-                                <li>
-                                    <span class="fa fa-file-audio-o m-r-xs"></span>
-                                    <label>语音消息：</label> 321 | 1%
-                                </li>
-                            </ul>
+                        </div>
+                        <div class="ibox-content">
+
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="widget lazur-bg p-sm">
-                            <small>昨日群聊消息统计</small>
-                            <div class="m-t-sm text-center">
-                                <h2 class="font-bold">1247978</h2>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="float-e-margins ibox">
+                        <div class="ibox-title">
+                            <h5>我的应用</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
                             </div>
-                            <div class="m-t-xs text-right">
-                                <i class="fa fa-arrow-up"></i> 53214
+                        </div>
+                        <div class="ibox-content">
+                            <div class="app-item">
+                                <div class="col-sm-4">
+                                    <div class="text-center">
+                                        <img alt="image" class="img-rounded m-t-xs img-responsive" src="img/a3.jpg">
+                                        <div class="m-t-md font-bold">
+                                            <button class="btn btn-xs btn-info">管理应用</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <h4><strong>我是冲神</strong></h4>
+                                    <div class="m-t-xs">
+                                        <p>
+                                            <span>注册用户：</span>
+                                            <span>786549</span>
+                                        </p>
+                                        <p>
+                                            <span>修改时间：</span>
+                                            <span>2014-11-24</span>
+                                        </p>
+                                        <p>
+                                            <span>运行状态：</span>
+                                            <span class="badge badge-primary">上线运行</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
                             </div>
-                            <ul class="list-unstyled m-t-md m-l-lg">
-                                <li>
-                                    <span class="fa fa-file-code-o m-r-xs"></span>
-                                    <label>文字消息：</label> 1268574 | 88%
-                                </li>
-                                <li>
-                                    <span class="fa fa-file-image-o m-r-xs"></span>
-                                    <label>图片消息：</label> 26588 | 11%
-                                </li>
-                                <li>
-                                    <span class="fa fa-file-audio-o m-r-xs"></span>
-                                    <label>语音消息：</label> 4321 | 1%
-                                </li>
-                            </ul>
+                            <hr/>
+                            <div class="app-item">
+                                <div class="col-sm-4">
+                                    <div class="text-center">
+                                        <img alt="image" class="img-rounded m-t-xs img-responsive" src="img/a8.jpg">
+                                        <div class="m-t-md font-bold">
+                                            <button class="btn btn-xs btn-info">管理应用</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <h4><strong>冲神去哪儿</strong></h4>
+                                    <div class="m-t-xs">
+                                        <p>
+                                            <span>注册用户：</span>
+                                            <span>549</span>
+                                        </p>
+                                        <p>
+                                            <span>修改时间：</span>
+                                            <span>2014-11-21</span>
+                                        </p>
+                                        <p>
+                                            <span>运行状态：</span>
+                                            <span class="badge">开发测试</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <hr/>
+                            <div class="app-item">
+                                <div class="col-sm-4">
+                                    <div class="text-center">
+                                        <img alt="image" class="img-rounded m-t-xs img-responsive" src="img/a5.jpg">
+                                        <div class="m-t-md font-bold">
+                                            <button class="btn btn-xs btn-info">管理应用</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <h4><strong>冲神回来了</strong></h4>
+                                    <div class="m-t-xs">
+                                        <p>
+                                            <span>注册用户：</span>
+                                            <span>18865549</span>
+                                        </p>
+                                        <p>
+                                            <span>修改时间：</span>
+                                            <span>3小时前</span>
+                                        </p>
+                                        <p>
+                                            <span>运行状态：</span>
+                                            <span class="badge badge-warning">正在审核</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <hr/>
+                            <div class="app-item">
+                                <div class="col-sm-4">
+                                    <div class="text-center">
+                                        <img alt="image" class="img-rounded m-t-xs img-responsive" src="img/a7.jpg">
+                                        <div class="m-t-md font-bold">
+                                            <button class="btn btn-xs btn-info">管理应用</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <h4><strong>冲神又通宵</strong></h4>
+                                    <div class="m-t-xs">
+                                        <p>
+                                            <span>注册用户：</span>
+                                            <span>865429</span>
+                                        </p>
+                                        <p>
+                                            <span>修改时间：</span>
+                                            <span>30秒前</span>
+                                        </p>
+                                        <p>
+                                            <span>运行状态：</span>
+                                            <span class="badge badge-danger">审核驳回</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <hr/>
                         </div>
                     </div>
                 </div>
@@ -350,19 +616,20 @@
             </div>
 
 
+            <div class="row animated fadeInDown">
 
+                
 
-
-
+            </div>
 
 
             <div class="row">
                 <div class="footer">
                     <div class="pull-right">
-                        @ <a href="http://weibo.com/staywithdoris" target="_blank">LiChong</a>
+                        @ <a href="http://beta.iocloud.io/" target="_blank">IOCloud</a>
                     </div>
                     <div>
-                        <strong>Copyright</strong> LiChong &copy; 2014.
+                        <strong>Copyright</strong> IOCloud &copy; 2014 - 2015.
                     </div>
                 </div>
             </div>

@@ -1,11 +1,5 @@
 @import url("http://fonts.useso.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
 
-/*
- *
- *   H+ - Admin Theme
- *
-*/
-
 h1,
 h2,
 h3,
@@ -160,7 +154,7 @@ h5 {
     transition: all 0.5s;
 }
 .nav > li.active {
-    border-left: 4px solid #19aa8d;
+    border-left: 8px solid #1c84c6;
     background: #293846;
 }
 .nav.nav-second-level > li.active {
@@ -324,7 +318,7 @@ body.mini-navbar .logo-element {
 }
 body.mini-navbar .nav-header {
     padding: 0;
-    background-color: #1ab394;
+    background-color: #1c84c6;
 }
 body.mini-navbar #page-wrapper,
 body.mini-navbar .footer {
@@ -1745,6 +1739,8 @@ a:focus {
 }
 .border-bottom {
     border-bottom: 1px solid #e7eaec !important;
+    box-shadow: 0px 1px 2px #acacac;
+    -moz-box-shadow: 0px 1px 2px #acacac;
 }
 .font-bold {
     font-weight: 600;
@@ -3572,7 +3568,7 @@ body.skin-3 {
     }
     .navbar-static-side {
         z-index: 101;
-        position: absolute;
+        position: fixed;
         width: 180px;
     }
     .navbar-top-links .dropdown-messages,
@@ -3590,7 +3586,7 @@ body.skin-3 {
     .body-small .navbar-static-side {
         display: none;
         z-index: 1;
-        position: absolute;
+        position: fixed;
         width: 70px;
     }
     .body-small.mini-navbar .navbar-static-side {
