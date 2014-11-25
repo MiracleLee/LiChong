@@ -338,7 +338,7 @@ body.mini-navbar #page-wrapper {
 }
 body.fixed-sidebar .navbar-static-side {
     position: fixed;
-    width: 220px;
+    width: 180px;
     z-index: 101;
     height: 100%;
 }
@@ -349,10 +349,10 @@ body.fixed-sidebar.mini-navbar #page-wrapper {
     margin: 0 0 0 0px;
 }
 body.body-small.fixed-sidebar.mini-navbar #page-wrapper {
-    margin: 0 0 0 220px;
+    margin: 0 0 0 180px;
 }
 body.body-small.fixed-sidebar.mini-navbar .navbar-static-side {
-    width: 220px;
+    width: 180px;
 }
 .fixed-sidebar.mini-navbar .nav li:focus > .nav-second-level {
     display: block;
@@ -1419,7 +1419,7 @@ table.dataTable thead .sorting:after {
     position: fixed;
     z-index: 2000;
     top: 0px;
-    left: 220px;
+    left: 180px;
     height: 2px;
     -webkit-transition: width 1s;
     -moz-transition: width 1s;
@@ -1676,7 +1676,7 @@ table.dataTable thead .sorting:after {
     right: 0px;
 }
 .sidebard-panel {
-    width: 220px;
+    width: 180px;
     background: #ebebed;
     padding: 10px 20px;
     position: absolute;
@@ -1816,7 +1816,7 @@ video {
 }
 #page-wrapper {
     padding: 0 15px;
-    min-height: 568px;
+    min-height: 800px;
     position: relative !important;
 }
 @media (min-width: 768px) {
@@ -1881,14 +1881,14 @@ ol.unstyled {
     padding: 10px 20px;
     background: white;
     border-top: 1px solid #e7eaec;
-    margin-left: 220px;
+    margin-left: 180px;
 }
 body.mini-navbar .footer.fixed,
 body.body-small.mini-navbar .footer.fixed {
     margin: 0 0 0 70px;
 }
 body.fixed-sidebar.body-small.mini-navbar .footer.fixed {
-    margin: 0 0 0 220px;
+    margin: 0 0 0 180px;
 }
 body.body-small .footer.fixed {
     margin-left: 0px;
@@ -2827,7 +2827,7 @@ ul.notes li div {
 
 .file-box {
     float: left;
-    width: 220px;
+    width: 180px;
 }
 .file-manager h5 {
     text-transform: uppercase;
@@ -3140,7 +3140,7 @@ dd.project-people {
     overflow: hidden;
 }
 .theme-config-box {
-    margin-right: -220px;
+    margin-right: -180px;
     position: relative;
     z-index: 2000;
     transition-duration: 0.8s;
@@ -3161,7 +3161,7 @@ dd.project-people {
     cursor: pointer;
 }
 .skin-setttings {
-    width: 220px;
+    width: 180px;
     margin-left: 40px;
     background: #f3f3f4;
 }
@@ -3567,13 +3567,13 @@ body.skin-3 {
 @media (min-width: 768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 0 0 220px;
+        margin: 0 0 0 180px;
         min-height: 800px;
     }
     .navbar-static-side {
         z-index: 101;
         position: absolute;
-        width: 220px;
+        width: 180px;
     }
     .navbar-top-links .dropdown-messages,
     .navbar-top-links .dropdown-tasks,
@@ -3620,7 +3620,7 @@ body.skin-3 {
         display: none;
         z-index: 1;
         position: fixed;
-        width: 220px;
+        width: 180px;
     }
     .fixed-sidebar.body-small.mini-navbar .navbar-static-side {
         display: block;
